@@ -1,0 +1,59 @@
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff;
+    
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+button{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.List{
+    display: flex;
+    justify-content:  start;
+    align-items: start;
+    flex-direction: column;
+    height: auto;
+    width: 100vw;
+    background-color: #ffffff;
+}
+
+li{
+    list-style: none;
+}
+
+.list-item{
+  
+  display: block;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+  
+}
+.delete{
+    float: right;
+}
+    
